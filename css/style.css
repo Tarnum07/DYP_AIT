@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 100%;
+  min-height: 100px;
+  margin: auto;
+}
+.main-logo-menu {
+  width: 100%;
+  min-height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fff78a;
+  flex-wrap: wrap;
+}
+.main-logo-menu .logo {
+  flex-basis: 40%;
+  display: flex;
+  padding: 0%;
+}
+.main-logo-menu .menu {
+  display: flex;
+  flex-basis: 55%;
+
+  justify-content: end;
+  align-items: center;
+}
+.menu a {
+  color: black;
+  padding: 25px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.menu a:hover {
+  background-color: #fff78a;
+  color: indianred;
+}
+.slider {
+  display: flex;
+  padding: 5px;
+  background-color: #ffe382;
+  flex-wrap: wrap;
+}
+.slider img {
+  display: flex;
+  width: 100%;
+  height: 80%;
+}
+.main-box-div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2px;
+  background-color: #ffc47e;
+  justify-content: center;
+}
+.main-box-div .img1 {
+  width: 25%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 5px;
+}
+.main-box-div .img2 {
+  width: 25%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 5px;
+}
+.main-box-div .img3 {
+  width: 25%;
+  height: 400px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.main-box-div .img4 {
+  width: 25%;
+  height: 400px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.img1 img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.img2 img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.img3 img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.img4 img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.con {
+  width: 100%;
+  min-height: 300px;
+  margin-top: 10px;
+}
+.con .right-img {
+  width: 200px;
+  height: 140px;
+  float: left;
+  margin-left: 10px;
+}
+.right-img img {
+  width: 100%;
+  height: 100%;
+}
+.con .text {
+  width: 550px;
+  height: auto;
+  float: right;
+}
+.text p {
+  text-align: justify;
+  padding: 10px;
+}
+.footer {
+  width: 100%;
+  min-height: 60px;
+  background-color: gray;
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
